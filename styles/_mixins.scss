@@ -1,0 +1,36 @@
+@mixin resetList() {
+    font-family: "Jost", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    a {
+        text-decoration: none;
+    }
+}
+
+@mixin lang($num) {
+    margin-left: $num !important;
+    height: 50px;
+    width: max-content;
+    margin-top: 40px;
+    .prog {
+        height: 25px;
+        width: 500px !important;
+        display: inline-block;
+    }
+    h1 {
+        color: #15130e47;
+        width: fit-content;
+        font: $primary-font;
+        font-size: 25px;
+        display: inline;
+    }
+}
+
+@mixin h1style() {
+    color: #0fbfbf;
+    margin-left: 470px;
+    margin-top: 100px;
+}
+
+

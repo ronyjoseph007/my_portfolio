@@ -1,0 +1,39 @@
+.techno {
+    margin-left: 170px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 100%;
+    .child-tech {
+        .uk-card-default{
+            height: 328px;
+            
+            
+            .uk-card-media-top{
+                img{
+                    height: 200px;
+                    width: 250px;
+                }
+            }
+            .uk-card-body{
+                .uk-button{
+                    &:hover{
+                        background-color: red;
+                    }
+                    background-color:#9be2e2 ;
+                    height: 30px;
+                    color:#ffffff;
+                    border: whitesmoke;
+                }
+                a{
+                    font-size: 13px;
+                    font-family: $primary-font;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+}

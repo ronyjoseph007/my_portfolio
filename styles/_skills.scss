@@ -1,0 +1,59 @@
+.skills {
+    .langs {
+       
+        display: flex;
+        flex-direction: column;
+        
+        width: max-content;
+        height: max-content;
+        h1 {
+            @include h1style()
+        }
+        .pyth {
+            @include lang(3px);
+            margin-left: 3px
+        }
+
+        .java {
+            @include lang(33px);
+        }
+        .c {
+            @include lang(61px);
+        }
+        .cplus {
+            @include lang(30px);
+        }
+        .cshar {
+            @include lang(51px);
+        }
+
+        .php {
+            @include lang(34px);
+        }
+        .html {
+            @include lang(20px);
+        }
+        .javascript {
+            @include lang(-20px);
+        }
+        .css {
+            @include lang(44px);
+        }
+        .go {
+            @include lang(53px);
+        }
+        .dart {
+            @include lang(39px);
+        }
+        .ruby {
+            @include lang(30px);
+        }
+    }
+
+    .tech{
+        h1{
+            color:#0fbfbf;
+            margin-left: 612px;
+        }
+    }
+}

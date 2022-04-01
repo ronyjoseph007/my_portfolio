@@ -1,0 +1,719 @@
+html {
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background-color: #9be2e2;
+  height: 4200px;
+}
+
+body header {
+  width: 100%;
+  height: 100px;
+  background-color: #9bdcdc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .logo {
+  margin-top: 42px;
+  height: 170px;
+}
+
+body header .logo img {
+  width: 170px;
+}
+
+body header .navbar {
+  margin-right: 100px !important;
+  width: 500px;
+}
+
+body header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body header .navbar ul a {
+  text-decoration: none;
+}
+
+body header .navbar ul a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+body header .navbar ul a:hover {
+  color: #6ff1f1;
+}
+
+body .sticky {
+  z-index: 100;
+  margin-top: -40px;
+  background-color: #0fbfbf;
+  position: fixed;
+}
+
+body .my-img {
+  margin-top: 40px;
+  width: 100%;
+}
+
+body .my-img .ein-img {
+  margin-top: -17px;
+  margin-left: 150px;
+}
+
+body .my-img .ein-img img {
+  border-style: solid;
+  border-color: white;
+  border-radius: 126px;
+  height: 259px;
+  width: 262px;
+}
+
+body .my-img .text-area {
+  margin-left: 122px;
+  max-width: 600px;
+  /* The typewriter cursor effect */
+}
+
+body .my-img .text-area h1 {
+  height: 50px;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  -webkit-animation: typing 2.5s steps(40, end);
+          animation: typing 2.5s steps(40, end);
+  color: azure;
+  width: 700px;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+body .my-img .text-area p {
+  font-size: 30px;
+  color: azure;
+}
+
+body .my-img .text-area .read {
+  padding: 10px;
+  height: 30px;
+  width: 120px;
+  background-color: #41d6d6;
+  border-radius: 5px;
+}
+
+body .my-img .text-area .read:hover {
+  background-color: #5decbb;
+}
+
+body .my-img .text-area .read a {
+  font-weight: bolder;
+  font-family: "Jost", sans-serif;
+  color: black;
+  margin-left: 7px;
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+.skills .langs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.skills .langs h1 {
+  color: #0fbfbf;
+  margin-left: 470px;
+  margin-top: 100px;
+}
+
+.skills .langs .pyth {
+  margin-left: 3px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+  margin-left: 3px;
+}
+
+.skills .langs .pyth .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .pyth h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .java {
+  margin-left: 33px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .java .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .java h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .c {
+  margin-left: 61px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .c .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .c h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .cplus {
+  margin-left: 30px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .cplus .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .cplus h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .cshar {
+  margin-left: 51px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .cshar .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .cshar h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .php {
+  margin-left: 34px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .php .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .php h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .html {
+  margin-left: 20px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .html .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .html h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .javascript {
+  margin-left: -20px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .javascript .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .javascript h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .css {
+  margin-left: 44px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .css .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .css h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .go {
+  margin-left: 53px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .go .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .go h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .dart {
+  margin-left: 39px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .dart .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .dart h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .langs .ruby {
+  margin-left: 30px !important;
+  height: 50px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.skills .langs .ruby .prog {
+  height: 25px;
+  width: 500px !important;
+  display: inline-block;
+}
+
+.skills .langs .ruby h1 {
+  color: #15130e47;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: "Jost", sans-serif;
+  font-size: 25px;
+  display: inline;
+}
+
+.skills .tech h1 {
+  color: #0fbfbf;
+  margin-left: 612px;
+}
+
+.techno {
+  margin-left: 170px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 400px 400px 400px;
+      grid-template-columns: 400px 400px 400px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 100%;
+}
+
+.techno .child-tech .uk-card-default {
+  height: 328px;
+}
+
+.techno .child-tech .uk-card-default .uk-card-media-top img {
+  height: 200px;
+  width: 250px;
+}
+
+.techno .child-tech .uk-card-default .uk-card-body .uk-button {
+  background-color: #9be2e2;
+  height: 30px;
+  color: #ffffff;
+  border: whitesmoke;
+}
+
+.techno .child-tech .uk-card-default .uk-card-body .uk-button:hover {
+  background-color: red;
+}
+
+.techno .child-tech .uk-card-default .uk-card-body a {
+  font-size: 13px;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+}
+
+.exp {
+  width: 100%;
+}
+
+.exp h1 {
+  margin-top: 45px;
+  margin-left: 670px;
+  color: #0fbfbf;
+}
+
+.exp .uk-grid-small {
+  margin-left: 45px;
+}
+
+.exp .uk-grid-small .par {
+  width: 500px;
+}
+
+.exp .uk-grid-small #more {
+  display: none;
+}
+
+.exp .uk-grid-small #mybtn1, .exp .uk-grid-small #mybtn2, .exp .uk-grid-small #mybtn3 {
+  color: white;
+  width: auto;
+  height: 30px;
+  background-color: #0fbfbf;
+  border: none;
+}
+
+.exp .uk-grid-small #mybtn1:hover, .exp .uk-grid-small #mybtn2:hover, .exp .uk-grid-small #mybtn3:hover {
+  background-color: #000000;
+}
+
+.cont h1 {
+  color: #0fbfbf;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cont .contact {
+  height: 400px;
+  background-color: black;
+  width: 1400px;
+}
+
+.cont .contact .uk-card .icon {
+  position: relative;
+}
+
+.cont .contact .uk-card .icon #name {
+  position: absolute;
+  top: -18px;
+  left: 35px;
+}
+
+.cont .contact .uk-card .icon #name2 {
+  position: absolute;
+  top: -5px;
+  left: 34px;
+}
+
+.cont .contact .uk-card .icon #gmail {
+  width: 18px;
+  height: 20px;
+  left: 4px;
+  top: 186px;
+  position: absolute;
+  display: block;
+}
+
+.cont .contact .uk-card .icon #get {
+  font-weight: bold;
+  top: -47px;
+  position: absolute;
+  left: 597px;
+  font-size: 21px;
+  color: #0fbfbf;
+  text-align: center;
+}
+
+.cont .contact .uk-card .icon #user {
+  top: 7px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.cont .contact .uk-card .icon #email {
+  font-size: 19px;
+  top: 156px;
+  left: 38px;
+  display: inline;
+  position: absolute;
+}
+
+.cont .contact .uk-card .icon h2 {
+  color: black;
+  text-align: left;
+  font-size: 13px;
+}
+
+.cont .contact .uk-card .icon a {
+  position: absolute;
+  top: 111px;
+  left: 36px;
+}
+
+.cont .contact .uk-card .icon #linked {
+  position: absolute;
+  top: 63px;
+  left: 34px;
+}
+
+.cont .contact .uk-card .icon #linkimg {
+  position: absolute;
+  top: 84px;
+  left: 3px;
+}
+
+.cont .contact .uk-card .icon h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+  font-size: 18px;
+  color: black;
+}
+
+.cont .contact .uk-card .icon #ron {
+  left: 39px;
+  position: absolute;
+  top: 188px;
+}
+
+.cont .contact .uk-card .msg {
+  position: relative;
+}
+
+.cont .contact .uk-card .msg h1 {
+  top: 8px;
+  left: 810px;
+  position: absolute;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+
+.cont .contact .uk-card .msg #nameinp {
+  border: 2px solid #9be2e2;
+  outline: none;
+  border-radius: 10px;
+  width: 225px;
+  position: absolute;
+  left: 808px;
+  top: 68px;
+  height: 35px;
+}
+
+.cont .contact .uk-card .msg #mailinp {
+  outline: none;
+  display: inline;
+  border: 2px solid #9be2e2;
+  border-radius: 10px;
+  width: 225px;
+  position: absolute;
+  left: 1075px;
+  top: 68px;
+  height: 35px;
+}
+
+.cont .contact .uk-card .msg #msginp {
+  outline: none;
+  border: 2px solid #9be2e2;
+  border-radius: 10px;
+  width: 491px;
+  position: absolute;
+  left: 809px;
+  top: 124px;
+  height: 81px;
+}
+
+.cont .contact .uk-card .msg #msgbut {
+  color: white;
+  border: none;
+  position: absolute;
+  top: 220px;
+  left: 809px;
+  height: 40px;
+  background-color: #0fbfbf;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.cont .contact .uk-card .msg #msgbut:hover {
+  background-color: #9be2e2;
+}
+/*# sourceMappingURL=main.css.map */
